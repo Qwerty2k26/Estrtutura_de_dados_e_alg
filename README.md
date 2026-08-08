@@ -1,25 +1,23 @@
- # Estruturas de Dados e Algoritmos
+# Estruturas de Dados e Algoritmos
 
-## Descrição
+Projeto desenvolvido para a disciplina de **Estruturas de Dados e Algoritmos** do curso de Tecnologia em Ciência de Dados da Universidade Estadual da Paraíba (UEPB).
 
-Este projeto foi desenvolvido para a disciplina de **Estruturas de Dados e Algoritmos** do curso de Tecnologia em Ciência de Dados da Universidade Estadual da Paraíba (UEPB).
+O projeto implementa diferentes estruturas de dados lineares e não lineares em Python, permitindo que o usuário interaja com cada estrutura por meio de menus no terminal.
 
-O sistema implementa estruturas de dados lineares e não lineares em Python, permitindo que o usuário interaja com cada estrutura através de menus no terminal.
-
-O objetivo do projeto é demonstrar o funcionamento das principais operações de cada estrutura, reforçando os conceitos estudados durante a disciplina.
+O objetivo é demonstrar o funcionamento das principais operações de cada estrutura, reforçando os conceitos estudados durante a disciplina.
 
 ---
 
-# Estruturas implementadas
+## Estruturas Implementadas
 
-## Estruturas Lineares
+### Estruturas Lineares
 
 - Pilha (Stack)
 - Fila (Queue)
 - Lista Encadeada Simples
 - Lista Duplamente Encadeada
 
-## Árvores
+### Árvores
 
 - Árvore Binária de Busca (BST)
 - Árvore AVL
@@ -27,11 +25,9 @@ O objetivo do projeto é demonstrar o funcionamento das principais operações d
 
 ---
 
-# Funcionalidades
+## Funcionalidades
 
-Cada estrutura possui um menu próprio contendo suas operações.
-
-Entre elas:
+Cada estrutura possui um conjunto de operações para manipulação e consulta dos dados.
 
 ### Pilha
 
@@ -66,7 +62,7 @@ Entre elas:
 - Exibição reversa
 - Quantidade de elementos
 
-### Árvore BST
+### Árvore Binária de Busca (BST)
 
 - Inserção
 - Remoção
@@ -74,7 +70,7 @@ Entre elas:
 - Percurso em ordem
 - Percurso em pré-ordem
 - Percurso em pós-ordem
-- Altura
+- Cálculo da altura
 - Quantidade de nós
 
 ### Árvore AVL
@@ -84,7 +80,7 @@ Entre elas:
 - Busca
 - Percurso em ordem
 - Percurso em pré-ordem
-- Altura
+- Cálculo da altura
 - Quantidade de nós
 
 ### Árvore B
@@ -92,98 +88,29 @@ Entre elas:
 - Inserção
 - Busca
 - Exibição por níveis
-- Altura
+- Cálculo da altura
 - Quantidade de chaves
 
 ---
 
-# Organização do Projeto
+## Organização do Projeto
 
-```
-EDA/
+```text
+Estrutura_de_dados_e_alg/
 │
 ├── linear/
+│   ├── __init__.py
 │   ├── stack.py
 │   ├── queue.py
 │   ├── singly_linked_list.py
-│   ├── doubly_linked_list.py
+│   └── doubly_linked_list.py
 │
 ├── trees/
+│   ├── __init__.py
 │   ├── tree_node.py
 │   ├── binary_search_tree.py
 │   ├── avl.py
-│   ├── b_tree.py
+│   └── b_tree.py
 │
 ├── main.py
 └── README.md
-```
-
----
-
-# Tecnologias Utilizadas
-
-- Python 3.12
-- Visual Studio Code
-
----
-
-# Como executar
-
-Clone o projeto:
-
-```bash
-git clone <url-do-repositório>
-```
-
-Entre na pasta:
-
-```bash
-cd EDA
-```
-
-Execute:
-
-```bash
-python main.py
-```
-
----
-
-# Conceitos aplicados
-
-Durante o desenvolvimento foram utilizados conceitos como:
-
-- Programação Orientada a Objetos
-- Classes
-- Objetos
-- Encapsulamento
-- Recursão
-- Generics (TypeVar e Generic)
-- Estruturas Lineares
-- Estruturas Hierárquicas
-- Árvores Balanceadas
-- Organização modular do código
-
----
-
-# Melhorias Futuras
-
-Como evolução do projeto, pretende-se implementar:
-
-- tratamento de exceções para entradas inválidas;
-- limpeza automática da tela durante a navegação;
-- persistência de dados em arquivos;
-- interface gráfica;
-- testes automatizados;
-- remoção de chaves na Árvore B;
-- documentação utilizando Sphinx.
-
----
-
-# Autor
-
-**Chrystian**
-
-Curso de Tecnologia em Ciência de Dados
-
-Universidade Estadual da Paraíba - UEPB
