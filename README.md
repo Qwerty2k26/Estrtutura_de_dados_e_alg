@@ -90,8 +90,55 @@ Cada estrutura possui um conjunto de operações para manipulação e consulta d
 - Exibição por níveis
 - Cálculo da altura
 - Quantidade de chaves
+- 
+---
+
+# Tecnologias Utilizadas
+
+- Python 3.12
+- Visual Studio Code
+
+—
+
+
+# Conceitos aplicados
+
+Durante o desenvolvimento foram utilizados conceitos como:
+
+- Programação Orientada a Objetos
+- Classes
+- Objetos
+- Encapsulamento
+- Recursão
+- Generics (TypeVar e Generic)
+- Estruturas Lineares
+- Estruturas Hierárquicas
+- Árvores Balanceadas
+- Organização modular do código
 
 ---
+
+# Melhorias Futuras
+
+Como evolução do projeto, pretende-se implementar:
+
+- tratamento de exceções para entradas inválidas;
+- limpeza automática da tela durante a navegação;
+- persistência de dados em arquivos;
+- interface gráfica;
+- testes automatizados;
+- remoção de chaves na Árvore B;
+
+---
+
+# Autor
+
+**Chrystian**
+
+Curso de Tecnologia em Ciência de Dados
+
+Universidade Estadual da Paraíba - UEPB
+
 
 ## Organização do Projeto
 
